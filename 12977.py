@@ -16,13 +16,6 @@ def solution(nums):
             cnt += isPrime(sum(c))
     return cnt
 
-import numpy as np
-
-num = np.random.randint(3, 51)
-arr = []
-for i in range(num):
-    arr.append(np.random.randint(1, 1000))
-
 
 # Best solutions
 def solution2(nums):
@@ -39,5 +32,5 @@ def solution2(nums):
 
 
 print(solution([1, 2, 3, 4]))
-print(solution([1, 2, 7, 6, 4]))
+print(solution2([1, 2, 7, 6, 4]))
 #print(solution(arr))
